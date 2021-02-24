@@ -1,0 +1,31 @@
+void main(){
+  //literals in dart
+  int x=10;// here int is data type x is veriable and 10 is literal
+  print(x);
+  
+  //ways to define string literals in dart or flutter
+  String s1="hello";//with double codes
+  String s2='worls';//with single codes
+  String s3="it's my car";//use of hin post of s wit double codes
+  String s4='it\'s yours car';//use of \ with single codes
+  //new line in string literals or string concatination
+  String s5="this is going to be very long string beause i am using"
+            "string concatination to show you something";
+  print(s1);
+  print(s2);
+  print(s3);
+  print(s4);
+  print(s5);
+  
+  //string interpolation mean adding
+  String name="chimi";
+  String message="my favorite child is "+name;
+  print(message);
+  // dart way of string iterpolation
+  String name2="aayesha";
+  String message2="my favourite baby girl is $name2";
+  print(message2);
+  //return length of string
+  //java use name.length.tostring() dart way is
+  print("the no of char in string AAyesha is ${name2.length}");
+}

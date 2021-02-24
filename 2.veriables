@@ -1,0 +1,19 @@
+void main(){
+  //verialbles in dart
+  int no=10;
+  double num=10.256;
+  String name="khurram";
+  print(no);
+  print(num);
+  print(name);
+  
+  //easest way to dec veriable in dart is use of var keyword
+  //dart detect it automatically
+  var noo=10;
+  var numb=10.256;
+  var namee="khurram shahzad";
+  print(noo);
+  print(numb);
+  print(namee);
+  
+}

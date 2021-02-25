@@ -1,0 +1,15 @@
+if we never want to chamge the value of a veriable we use const and final;
+final name ="ali";
+const pi=3.14;
+
+different between const and final
+final keyword can be set once and it is initialized when accessed. 
+in our program when we use the veriable name only when it is initilized and memory is alocated.
+if we donot inilize the verialbe name memory will not be allocated.
+
+
+const is same as final, but it is compile time constant.
+it is initilized during compilation.
+
+instance veriable that are within the class cant be const.
+at that levelif we use const we have to use static.

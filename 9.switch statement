@@ -1,0 +1,21 @@
+void main(){
+
+  //switch 
+  //switch statement is only applicable to string and it
+  var brand="haier";
+  switch(brand){//can't pass boolen or double
+
+    case 'Lenovo':
+      print("Excilent brand");
+      break;
+    case 'Dell':
+      print("good brand");
+      break;
+    case 'hp':
+      print("bad brand dont buy");
+      break;
+    default:
+      print("brand not available ");
+      break;
+  }
+}

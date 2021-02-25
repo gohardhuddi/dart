@@ -1,0 +1,45 @@
+void main()
+{//use of break key word in foe loop
+for (var i=1;i<=10;i++)
+{
+  print(i);
+  if(i==5)
+  {
+    break;
+  }
+}
+  //nested for loop
+  for(var i=0;i<=10;i++)
+  {
+     for(var j=0;j<=10;j++)
+     {
+       print("$i  $j");
+     }
+  }
+  //nested for loop with break
+  for(var i=0;i<=10;i++)
+  {
+     for(var j=0;j<=10;j++)
+     {
+       print("$i  $j");
+       if(i==5 && j==5)
+       {
+         break;
+         //as it is not working properly
+       }
+     }
+  }
+  //in dart we can name our loop to get desire //result
+  outerloop:for(var i=0;i<=10;i++)
+  {
+     innerloop:for(var j=0;j<=10;j++)
+     {
+       print("$i  $j");
+       if(i==5 && j==5)
+       {
+         break outerloop;
+         //now it is working properly
+       }
+     }
+  }
+}

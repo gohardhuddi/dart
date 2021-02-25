@@ -1,0 +1,27 @@
+void main(){
+
+  //for loop
+  for(var i=1;i<=10;i++)
+  {
+    print(i);
+  }
+  
+  //for in 
+  List names=["khurram","Ali","Adnan","Ramzan"];
+  for(String name in names){
+
+    print(name);
+  }
+  //another exple
+  List no=[10,20,30,40,50,60,70,80,90];
+  var sum=0;
+  for(var i in no)
+  {
+    sum=sum+i;
+  }
+  print(sum);
+}
+//he first element of the list assigned to the variable i. 
+//This process happened again, and the second element of the list assigned to i.
+//It will be continued until there is no element left in the list. 
+//It printed the all element of the list to the console.

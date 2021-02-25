@@ -1,0 +1,15 @@
+if we never want to change the value of a variable we use const and final;
+final name ="ali";
+const pi=3.14;
+
+different between const and final
+final keyword can be set once and it is initialized when accessed. 
+in our program when we use the variable name only when it is initialized and memory is allocated.
+if we do not initialize the variable name memory will not be allocated.
+
+
+const is same as final, but it is compile time constant.
+it is initialized during compilation.
+
+instance variable that are within the class cant be const.
+at that level if we use const we have to use static.

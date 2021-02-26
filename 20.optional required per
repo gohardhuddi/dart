@@ -1,0 +1,27 @@
+//optional requred perimeters
+void main()
+{
+  sum(2,50);
+}
+//for optional periemeter use [] asbelow
+void sum(int a, int b, [int c])
+{
+  if(a!=null && b!=null && c!=null)
+  {
+    print("sum is ${a+b+c}");
+  }
+  else if(a!=null && b!=null &&c==null)
+  {
+    print("sum is ${a+b}");
+  }
+  else if(a!=null && c!=null && b==null)
+  {
+    print("sum is ${a+c}");
+  }
+   else if(b!=null && c!=null && a==null)
+   {
+     print("sum is ${b+c}");
+   }
+  
+  
+}

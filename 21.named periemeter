@@ -1,0 +1,13 @@
+//named periemeter
+//help us when there is large no of per.
+//no need of sequence in named per.
+//we ise {} for named perimeter
+ void main()
+ {
+   findareaofrec(2,height:5,width:5);
+ }
+void findareaofrec(int length,{int width, int height})
+{
+  var res=length*width*height;
+  print("are is $res");
+}

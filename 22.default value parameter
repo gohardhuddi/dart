@@ -1,0 +1,11 @@
+//default perimeter
+void main()
+{
+  var we=weight(80);
+  print(we);
+}
+double weight(int mass,{double gravity=9.8})
+{
+  var w=mass*gravity;
+  return w;
+}

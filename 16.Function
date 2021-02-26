@@ -1,0 +1,28 @@
+//Methods or functions
+  /*Collection of statements grouped together to 
+  perfoem an action.*/
+  
+  //why we need functions
+  /*Function are used for divide a large code into module, due to this we can easily debug and maintain the code. For example if we write a calculator programs at that time we can write every logic in a separate function (For addition sum(), for subtraction sub()). Any function can be called many times.*/
+  
+  
+  //Functions in dart are objects.
+  /*fuc can be assigned to veriable in dart
+   function can be passed as perameter to other function in dart*/
+  
+  /*all fun in dart retuen value. if no rtn value thy return null*/
+
+
+void main()
+{
+  //calling of a fun
+  findperiemeter();
+}
+//syntex to initialize a function
+void findperiemeter()
+{
+  int len=24;
+  int bri=5;
+  var per=2*(len+bri);
+  print("perimeter is $per");
+}

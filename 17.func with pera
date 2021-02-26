@@ -1,0 +1,10 @@
+//function with perimeter
+void main()
+{
+  areaOfTriangle(13,5);
+}
+void areaOfTriangle(int base,int height)
+{
+  var area=1/2*(base*height);
+  print("area of triangle is$area");
+}

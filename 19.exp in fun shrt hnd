@@ -1,0 +1,17 @@
+//expression in function
+//short hand tech
+void main()
+{
+  areaOfTriangle(13,5);
+  int AreaofRect=areaOfRectangle(5,10);
+  //passing permtr to function and getting 
+  //its value using return and store that value
+  //in AreaofRect.
+  print("area of rectangle is $AreaofRect");
+}
+void areaOfTriangle(int base,int height)=>
+  print("area of triangle is${1/2*(base*height)}");
+//when we use => we donot use {}
+
+int areaOfRectangle(int length,int bridth)=>length*bridth;
+//also we donot use return keyword

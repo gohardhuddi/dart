@@ -1,0 +1,20 @@
+//return value from a function
+void main()
+{
+  areaOfTriangle(13,5);
+  int AreaofRect=areaOfRectangle(5,10);
+  //passing permtr to function and getting 
+  //its value using return and store that value
+  //in AreaofRect.
+  print("area of rectangle is $AreaofRect");
+}
+void areaOfTriangle(int base,int height)
+{
+  var area=1/2*(base*height);
+  print("area of triangle is$area");
+}
+int areaOfRectangle(int length,int bridth)
+{
+  int Area=length*bridth;
+  return Area;
+}

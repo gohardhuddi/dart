@@ -1,0 +1,27 @@
+//Classes obj with fun
+void main()
+{
+  var student1= Student();//Student() is an object and var student 1 is refference veriable
+  //new keyword not manadotery
+  student1.name="khurram";
+  student1.roll=19;
+  student1.Classs="bscs";
+  print("${student1.name} and ${student1.roll} and ${student1.Classs}");
+  student1.study();
+  student1.ideal();
+}
+class Student
+{
+  int roll;//instance or field veriables
+  String name;
+  String Classs;
+  void study()
+  {
+    print("${this.name} is studying");
+  }
+  void ideal()
+  {
+     print("${this.name} is idle");
+  }
+ 
+}

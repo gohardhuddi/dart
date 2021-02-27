@@ -1,0 +1,27 @@
+//exception handling
+//normal flow of program is disrupted and app crashes
+void main()
+{
+  int a=10;
+  int b=0;
+  int res;
+  try{
+  res=a~/b;
+  } catch(e)
+  {
+    print("excephttp://192.168.100.1/tion is $e");
+  }
+  
+  //2nd case
+  //use of final clouse
+  print("use of final clouse");
+  try{
+  res=a~/5;
+  } catch(e)
+  {
+    print("exception is $e");
+    //it always executed no meter try work or catche work
+  } finally{
+    print("Match rules donot divide anything by 0");
+  }
+}

@@ -1,0 +1,47 @@
+//getter and setter
+// Getters and setters allow control over the values. You may validate the given value in the setter before actually setting the value.
+
+// example
+// public void setNumber(int number) {
+//   if (number < 1 || number > 10) {
+//     throw new IllegalArgumentException();
+//   }
+//   this.number = num;
+// }
+//////////////////////////////////////////
+// default getter and setter
+// custom getter and setter
+//private instance veriable
+void main()
+{
+  var std1=new Student();
+  std1.name="khurram";//calling default setter to set value
+  print(std1.name);// calling default getter to get value
+  
+  std1.percentage=386.0;//calling custom setter to set value
+  print(std1.percentage);// calling custom getter to get vale
+}
+class Student
+{
+  String name;//instance var with default getter and setter
+ // double percentage;
+  //do not need to define instance veriable here
+  //it is only use by default geetr and setter  
+  double _percent;//private keywoord= _ in dart
+  void set percentage(double marksecured)//instance var with custom setter
+  {
+    _percent=(marksecured/500)*100;
+  }
+  double get percentage//instance var with custom getter
+  {
+    return _percent;
+  }
+  
+  //dart optimize way
+
+//instance var with custom setter
+// void set percentage(double marksecured)=>_percent=(marksecured/500)*100;
+  
+//   double get percentage=>_percent;//instance var with custom getter
+  
+}

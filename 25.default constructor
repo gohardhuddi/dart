@@ -1,0 +1,32 @@
+//Constructor
+//A constructor is a member function of a class which initializes objects of a class
+// At the time of calling constructor, memory for the object is allocated in the memory.
+void main()
+{
+  var student1= Student();//Student() class followed by () it is act as a function know as default constructor 
+  student1.name="khurram";
+  student1.roll=19;
+  student1.Classs="bscs";
+  print("${student1.name} and ${student1.roll} and ${student1.Classs}");
+  student1.study();
+  student1.ideal();
+ 
+}
+class Student
+{
+  int roll;//instance or field veriables
+  String name;
+  String Classs;
+  Student(){
+    print("This is my default constructor");
+  }
+  void study()
+  {
+    print("${this.name} is studying");
+    
+  }
+  void ideal()
+  {
+     print("${this.name} is idle");
+  }
+ 

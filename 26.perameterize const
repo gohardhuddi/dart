@@ -22,6 +22,8 @@ class Student
     this.roll=roll;
     this.Classs=Classs;
   }
+  //Student(this.name, this.roll , this.Classs);
+  //work same as above
   void study()
   {
     print("${this.name} is studying");

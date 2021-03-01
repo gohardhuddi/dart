@@ -1,4 +1,5 @@
 //Constructor
+//use to create object
 //A constructor is a member function of a class which initializes objects of a class
 // At the time of calling constructor, memory for the object is allocated in the memory.
 void main()

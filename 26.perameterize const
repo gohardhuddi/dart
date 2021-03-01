@@ -1,0 +1,40 @@
+//Perameterize Constructor
+//use to reduce no of lines of code
+void main()
+{
+  var student1= Student("khurram",19,"bcs");
+  //no need of below 3 lines of code;
+//   student1.name="khurram";
+//   student1.roll=19;
+//   student1.Classs="bscs";
+  print("${student1.name} and ${student1.roll} and ${student1.Classs}");
+  student1.study();
+  student1.ideal();
+ 
+}
+class Student
+{
+  int roll;//instance or field veriables
+  String name;
+  String Classs;
+  Student(String name, int roll , String Classs){
+    this.name=name;
+    this.roll=roll;
+    this.Classs=Classs;
+  }
+  void study()
+  {
+    print("${this.name} is studying");
+    
+  }
+  void ideal()
+  {
+     print("${this.name} is idle");
+  }
+ 
+}
+Console
+khurram and 19 and bcs
+khurram is studying
+khurram is idle
+Documentation

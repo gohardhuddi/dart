@@ -1,0 +1,40 @@
+//inhertance
+//avoid code repeatation
+//code reuse
+void main()
+{
+  var dog1=new Dog();
+  dog1.bread="booli";//def setter called
+  dog1.color="black";
+  dog1.bark();//def getter called
+  dog1.eat();
+  var cat1=Cat();//default cons called
+  cat1.name="mano";
+  cat1.color="white";
+  cat1.maon();
+  cat1.eat();
+}
+class Animal
+{
+  String color;
+ void eat()
+ {
+   print("eating");
+ }
+}
+class Dog extends Animal
+{
+  String bread;
+  void bark()
+  {
+    print("bark");
+  }
+}
+class Cat extends Animal
+{
+  String name;
+  void maon()
+  {
+    print("maon");
+  }
+}

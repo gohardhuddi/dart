@@ -1,5 +1,7 @@
 //Polymorphism
 //use same fuction 2 times with differen behaviour or code
+//mehod overiding
+//if a class extends another class and we create a method with same name , this is called mehod overiding or polymorphism
 void main()
 {
   var dog1=new Dog();

@@ -1,0 +1,29 @@
+//list = array
+//fixed length and dynamic length
+//fixed length
+// same as Arrayy
+void main()
+{
+  List<int> numberlist= List(5) ;// fixed length list
+  //use () insted of[]
+  //5 is length
+  //assign value to indexes 0-4
+  numberlist[0]=0;
+  numberlist[1]=1;
+  numberlist[2]=2;
+  numberlist[3]=3;
+  numberlist[4]=4;
+  //print using for in loop
+  //for in use to print everything in sequence
+  for(int i in numberlist)
+  {
+    print(i);
+  }
+  //use traditional for loop
+  for(int i=0;i<=4;i++)
+  {
+    print(i);
+  }
+  //one element can be printed as
+  print(numberlist[2]);
+}

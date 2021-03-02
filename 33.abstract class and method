@@ -1,0 +1,34 @@
+//abstract clss and method
+//class with abstract keyword knows as abstract class
+//method withoud body(implementation) known as abstract method;
+//main purpose to acchieve abstraction is security
+//hide detail of data and show only required interface
+// can't make abstract class obj
+//////////////////////////////////////////
+void main()
+{
+  Car c= new Car();
+  c.start();
+  Scoter s=new Scoter();
+  s.start();
+}
+abstract class Vehacial 
+{
+   void start();//abstract function have no bofy
+}
+class Car extends Vehacial
+{
+  void start()
+  {
+    print("start with key");
+  }
+}
+class Scoter extends Vehacial
+{
+  void start()
+  {
+    print("start with kick");
+  }
+}
+//mehod overiding
+//if a class extends another class and we create a method with same name , this is called mehod overiding or polymorphism

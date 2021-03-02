@@ -1,0 +1,32 @@
+//list = array
+//fixed length and dynamic length
+//fixed length
+// same as Arrayy
+void main()
+{
+  List<int> numberlist= List() ;// dynamic length list
+  //use () insted of[]
+ 
+  //assign value to indexes 0-4
+//   numberlist[0]=0;//for fixed 
+  numberlist.add(0);
+  numberlist.add(1);
+  numberlist.add(2);
+  numberlist.add(3);
+  numberlist.add(4);
+  
+  
+  //update is smae in both fixed and dynamic
+  numberlist[0]=10;
+  numberlist[1]=null;
+  
+  //remove element
+  numberlist.remove(2);//pass value you want to remove not index;
+  numberlist.removeAt(2);//pass index
+  //print using for in loop
+  //for in use to print everything in sequence
+  for(int i in numberlist)
+  {
+    print(i);
+  }
+}
